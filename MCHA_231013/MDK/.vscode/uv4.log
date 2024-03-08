@@ -1,0 +1,17 @@
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'd:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'BAT32A237'
+assembling udslib.a...
+..\udslib.a(1): error: A1167E: Invalid line start 
+..\udslib.a(2): error: A1167E: Invalid line start 
+..\udslib.a(3): error: A1167E: Invalid line start 
+..\udslib.a(4): error: A1167E: Invalid line start 
+..\udslib.a(5): error: A1167E: Invalid line start 
+..\udslib.a(6): error: A1167E: Invalid line start 
+..\udslib.a(7): error: A1167E: Invalid line start 
+..\udslib.a(8): error: A1167E: Invalid line start 
+   8 00000000 ? (9): error: A1167E: Invalid line start 
+..\udslib.a(10): error: A1167E: Invalid line start 
+  10 00000000 зо006?001- зо002-\023зо003-*?036-\017?-%зь(11): warning: A1313W: Missing END directive at end of file
+".\Objects\Blinky.axf" - 10 Error(s), 1 Warning(s).
+Target not created.
+Build Time Elapsed:  00:00:00

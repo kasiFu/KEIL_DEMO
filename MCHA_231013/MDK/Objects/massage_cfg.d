@@ -1,0 +1,13 @@
+.\objects\massage_cfg.o: ..\swc\src\Massage_cfg.c
+.\objects\massage_cfg.o: ..\swc\include\Massage_cfg.h
+.\objects\massage_cfg.o: ..\bsw\Std_Types.h
+.\objects\massage_cfg.o: ..\bsw\Platform_Types.h
+.\objects\massage_cfg.o: ..\Device\Include\BAT32A237.h
+.\objects\massage_cfg.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\massage_cfg.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\massage_cfg.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\massage_cfg.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\massage_cfg.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\massage_cfg.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\massage_cfg.o: ..\Device\Include\system_BAT32A237.h
+.\objects\massage_cfg.o: ..\Device\Include\BAT32A237_conf.h

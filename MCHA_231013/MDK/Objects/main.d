@@ -1,0 +1,14 @@
+.\objects\main.o: ..\main.c
+.\objects\main.o: ..\bsw\Std_Types.h
+.\objects\main.o: ..\bsw\Platform_Types.h
+.\objects\main.o: ..\bsw\EcuM\EcuM.h
+.\objects\main.o: ..\RteM\include\Rte.h
+.\objects\main.o: ..\Device\Include\BAT32A237.h
+.\objects\main.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\main.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\main.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\main.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\main.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\main.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\main.o: ..\Device\Include\system_BAT32A237.h
+.\objects\main.o: ..\Device\Include\BAT32A237_conf.h

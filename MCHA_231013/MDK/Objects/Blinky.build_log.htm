@@ -1,0 +1,137 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: 1 Kasi.Fu, 1, LIC=KRMW3-A9GWM-HLTCL-0J5MZ-Y8SHK-VLFBY
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DARMCM1.DLL V1.19.6.0
+Target DLL:      UL2CM3.DLL V1.164.8.0
+Dialog DLL:      TARMCM1.DLL V1.14.6.0
+ 
+<h2>Project:</h2>
+C:\Users\Kasi.Fu\Desktop\test\MCHA_231013\MDK\Mcha.uvprojx
+Project File Date:  10/16/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin'
+Rebuild target 'BAT32A237'
+compiling main.c...
+compiling tim.c...
+compiling sci_common.c...
+compiling intp.c...
+compiling cgc.c...
+compiling dma.c...
+compiling uart.c...
+compiling gpio.c...
+compiling wdt.c...
+compiling lin_protocol.c...
+..\Fbl\linSendReceive\lin_protocol.c(114): warning:  #223-D: function "Intp_Init" declared implicitly
+  	Intp_Init();
+..\Fbl\linSendReceive\lin_protocol.c(116): warning:  #223-D: function "Uart0_Init" declared implicitly
+      Uart0_Init(LIN_BAUDRATE);
+..\Fbl\linSendReceive\lin_protocol.c: 2 warnings, 0 errors
+compiling delay.c...
+compiling flash.c...
+compiling EcuM_Callout_Stubs.c...
+compiling EcuM.c...
+compiling Mcu.c...
+compiling Analog.c...
+compiling adc.c...
+compiling isr.c...
+compiling BootCfg.c...
+..\Fbl\BootCfg\BootCfg.c(104): warning:  #223-D: function "SetCurrentSession" declared implicitly
+          SetCurrentSession(PROGRAM_SESSION);
+..\Fbl\BootCfg\BootCfg.c(106): warning:  #223-D: function "RestartS3Server" declared implicitly
+          RestartS3Server();
+..\Fbl\BootCfg\BootCfg.c: 2 warnings, 0 errors
+compiling Debug.c...
+compiling timer_hal.c...
+..\Fbl\TimeSystem\timer_hal.c(40): warning:  #223-D: function "UDS_SystemTickCtl" declared implicitly
+      UDS_SystemTickCtl();    /* Add UDS timer in 1ms interrupt. */
+..\Fbl\TimeSystem\timer_hal.c: 1 warning, 0 errors
+compiling uds_alg_hal.c...
+..\Fbl\UDS_Stcak\UDS_APP\uds_alg_hal.c(5): warning:  #940-D: missing return statement at end of non-void function "UDS_ALG_HAL_EncryptData" 
+  }
+..\Fbl\UDS_Stcak\UDS_APP\uds_alg_hal.c(9): warning:  #940-D: missing return statement at end of non-void function "UDS_ALG_HAL_DecryptData" 
+  }
+..\Fbl\UDS_Stcak\UDS_APP\uds_alg_hal.c: 2 warnings, 0 errors
+compiling delay_drv.c...
+compiling dma_drv.c...
+..\Fbl\linSendReceive\dma_drv.c(14): warning:  #188-D: enumerated type mixed with another type
+      DMA_InitTypeDef  DMA_InitStructure = {0};
+..\Fbl\linSendReceive\dma_drv.c(41): warning:  #188-D: enumerated type mixed with another type
+      DMA_InitTypeDef  DMA_InitStructure = {0};
+..\Fbl\linSendReceive\dma_drv.c: 2 warnings, 0 errors
+compiling Cal.c...
+compiling SecM.c...
+compiling intp_drv.c...
+compiling tim_drv.c...
+..\Fbl\linSendReceive\tim_drv.c(26): warning:  #188-D: enumerated type mixed with another type
+      TIM_InitTypeDef TIM_InitStructure = {0};
+..\Fbl\linSendReceive\tim_drv.c: 1 warning, 0 errors
+compiling uart_drv.c...
+compiling tima.c...
+compiling Rte_Cfg.c...
+assembling startup_BAT32A237.s...
+compiling keyScan.c...
+compiling Rte.c...
+..\RteM\src\Rte.c(88): warning:  #223-D: function "Uds_FlashControlMain" declared implicitly
+  	Uds_FlashControlMain();
+..\RteM\src\Rte.c: 1 warning, 0 errors
+compiling isr_BAT32A237.c...
+compiling Massage.c...
+compiling Massage_cfg.c...
+compiling system_BAT32A237.c...
+linking...
+Program Size: Code=21852 RO-data=1692 RW-data=1340 ZI-data=2812  
+FromELF: creating hex file...
+".\Objects\Blinky.axf" - 0 Error(s), 11 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Cmsemicon
+                http://www.mcu.com.cn/pack/Cmsemicon.BAT32A237.1.0.5.pack
+                Cmsemicon.BAT32A237.1.0.5
+                Cmsemicon BAT32A237 Device Family Pack
+   * Component: ISR Version: 1.0.0
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/Device/BAT32A237KH48FA
+  ./RTE/_BAT32A237
+  D:/Software/Keil/PACK/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/Software/Keil/PACK/Cmsemicon/BAT32A237/1.0.5/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Cmsemicon::Device:ISR:1.0.0
+      Source file:   Device/Source/isr_BAT32A237.c
+
+   * Component: Cmsemicon::Device:Startup:1.0.0
+      Include file:  Device/Source/userdefine.h
+      Source file:   Device/Source/system_BAT32A237.c
+      Source file:   Device/Source/ARM/startup_BAT32A237.s
+Build Time Elapsed:  00:00:23
+</pre>
+</body>
+</html>

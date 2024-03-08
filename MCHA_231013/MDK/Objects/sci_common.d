@@ -1,0 +1,15 @@
+.\objects\sci_common.o: ..\Driver\src\sci_common.c
+.\objects\sci_common.o: ..\Driver\include\sci_common.h
+.\objects\sci_common.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdio.h
+.\objects\sci_common.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\sci_common.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdlib.h
+.\objects\sci_common.o: ..\Driver\include\common.h
+.\objects\sci_common.o: ..\Device\Include\BAT32A237.h
+.\objects\sci_common.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\sci_common.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\sci_common.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\sci_common.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\sci_common.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\sci_common.o: ..\Device\Include\system_BAT32A237.h
+.\objects\sci_common.o: ..\Device\Include\BAT32A237_conf.h
+.\objects\sci_common.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\math.h

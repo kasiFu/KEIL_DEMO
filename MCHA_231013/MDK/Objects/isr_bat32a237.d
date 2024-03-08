@@ -1,0 +1,11 @@
+.\objects\isr_bat32a237.o: RTE/Device/BAT32A237KH48FA/isr_BAT32A237.c
+.\objects\isr_bat32a237.o: RTE/Device/BAT32A237KH48FA/userdefine.h
+.\objects\isr_bat32a237.o: ..\Device\Include\BAT32A237.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\core_cm0plus.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\ARM\ARM_Compiler_5.06u7\Bin\..\include\stdint.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_version.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_compiler.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\cmsis_armcc.h
+.\objects\isr_bat32a237.o: D:\Software\Keil\PACK\ARM\CMSIS\5.9.0\CMSIS\Core\Include\mpu_armv7.h
+.\objects\isr_bat32a237.o: ..\Device\Include\system_BAT32A237.h
+.\objects\isr_bat32a237.o: ..\Device\Include\BAT32A237_conf.h
